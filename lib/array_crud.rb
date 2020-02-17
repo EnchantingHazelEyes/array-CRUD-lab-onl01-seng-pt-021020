@@ -3,7 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  ["a", "b", "c", "d"]
+  create_array = ["a", "b", "c", "d"]
 end
 
 def add_element_to_end_of_array(array, element)
@@ -15,7 +15,6 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  create_an_array.push("arrays!")
   create_an_array.pop
 end
 
